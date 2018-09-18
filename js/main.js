@@ -15,7 +15,7 @@ Main.boot.prototype = {
     game.scale.scaleMode = Phaser.ScaleManager.USER_SCALE;
     game.scale.pageAlignVertically = true;
     game.scale.pageAlignHorizontally = true;
-    game.stage.disableVisibilityChange = true;
+    game.stage.disableVisiblilityChange = true;
     game.renderer.renderSession.roundPixels = true;
 
     game.scale.setResizeCallback(this.gameResized, this);
